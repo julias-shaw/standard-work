@@ -42,7 +42,8 @@ one. A story that fails one of these is usually the one that causes trouble late
 | **T**estable | You can objectively tell whether it works. | Do its acceptance criteria say what "correct" means? |
 
 **E** and **T** are the same ground the [Definition of Ready](definition-of-ready.md)
-covers — a story that isn't Estimable or Testable isn't ready to start.
+covers — a story that isn't Estimable or Testable isn't ready to start. A good story will 
+meet the other four criteria as well but that is not an absolute requirement. 
 
 ## Task
 
@@ -54,8 +55,8 @@ A **task** is a step the developer identifies in order to deliver a story.
   work doesn't serve a story, it needs a story of its own.
 - **Tasks carry no separate acceptance criteria.** The story's criteria are the bar.
 - **Tasks are not separately reviewed or accepted.** The reviewer approves the story.
-- **Only stories reach Done.** Finishing every task is how a story gets done; it is not
-  a substitute for meeting the Definition of Done.
+- **Only stories reach Done.** Finishing every task is part of how a story gets done; 
+  it is not a substitute for meeting the Definition of Done.
 
 ## When to create tasks
 
@@ -87,7 +88,7 @@ is.
 
 - [ ] Every tracked piece of work is a story, or a task belonging to a story.
 - [ ] Each story is a single Linear issue with acceptance criteria and one status.
-- [ ] Each story holds up against INVEST.
+- [ ] Each story holds up against the E and T in INVEST.
 - [ ] Any story of more than 2 days of work is broken into tasks of at most 2 days each.
 - [ ] Tasks appear only as checklist items on their story.
 

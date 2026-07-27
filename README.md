@@ -8,19 +8,19 @@ New here? Skip down to [What is standard work?](#what-is-standard-work) for the 
 
 ## Index
 
-- [Stories and Tasks](stories-and-tasks.md) — the vocabulary the rest of this library
-  uses: what a story is (and the INVEST criteria for writing a good one), what a task
-  is, and when to break a story into tasks. **Start here.**
-- [Definition of Ready](definition-of-ready.md) — the bar for when a story is defined
-  well enough to start.
-- [Definition of Done](definition-of-done.md) — the bar for when a story is considered
-  finished, plus the extra version-control bar for stories that involve code.
-- [Version Control Usage](version-control-usage.md) — keeping work on a branch, pushing
-  to GitHub at least daily, and merging to the default branch when it reaches production.
-- [Status Tracking](status-tracking.md) — tracking all work in Linear and what each
-  status means.
 - [Architecture Decision Records](architecture-decision-records.md) — when and how to
   record significant architecture decisions (uses the ADR template).
+- [Definition of Done](definition-of-done.md) — the bar for when a story is considered
+  finished, plus the extra version-control bar for stories that involve code.
+- [Definition of Ready](definition-of-ready.md) — the bar for when a story is defined
+  well enough to start.
+- [Status Tracking](status-tracking.md) — tracking all work in Linear and what each
+  status means.
+- [Stories and Tasks](stories-and-tasks.md) — the vocabulary the rest of this library
+  uses: what a story is (and the INVEST criteria for writing a good one), what a task
+  is, and when to break a story into tasks. **New here? Start with this one.**
+- [Version Control Usage](version-control-usage.md) — keeping work on a branch, pushing
+  to GitHub at least daily, and merging to the default branch when it reaches production.
 
 ### Skills
 

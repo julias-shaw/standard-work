@@ -14,6 +14,8 @@ New here? Skip down to [What is standard work?](#what-is-standard-work) for the 
   finished, plus the extra version-control bar for stories that involve code.
 - [Definition of Ready](definition-of-ready.md) — the bar for when a story is defined
   well enough to start.
+- [Glossary](glossary.md) — one short definition for every term this library uses, with
+  a link to the document that explains it in full.
 - [Status Tracking](status-tracking.md) — tracking all work in Linear and what each
   status means.
 - [Stories and Tasks](stories-and-tasks.md) — the vocabulary the rest of this library
@@ -62,7 +64,8 @@ It's **flat on purpose**. Every document lives in the root of the repository —
 are no folders to navigate and no debate about where something "belongs." If a flat
 namespace is good enough for Wikipedia, it's good enough for us, and it saves everyone
 the overhead of organizing and reorganizing. The only exceptions are `images/` (all
-images) and `skills/` (packaged agent skills, one directory each).
+images) and `skills/` (packaged agent skills, one directory each, as required by the
+agent skills specification).
 
 Order and grouping live in the [Index](#index) above, not in a directory tree. Every
 document links to the related ones, so you can follow the trail from whichever one you
@@ -71,7 +74,8 @@ land on.
 ## How to use it
 
 - **Reading?** Browse the [Index](#index) and open whatever's relevant. Each document
-  tells you its purpose, when it applies, who's involved, and the steps.
+  opens with its purpose, when it applies, and who's involved. Unsure what a word
+  means? Check the [Glossary](glossary.md).
 - **Improving something?** Edit the document, and update this index in the same commit
   if you add, rename, or remove a file. Standard work is meant to evolve — if you've
   found a better way, change it here so everyone benefits.

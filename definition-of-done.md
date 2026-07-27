@@ -9,8 +9,9 @@ that code visible to the whole team through GitHub.
 version-control criteria apply only to stories that involve code.
 
 **Roles** — the **developer** is responsible for getting the story to done. Where the
-story calls for manual review, the **reviewer** named at readiness (by default the
-**requester**, the person who asked for the work) reviews and approves it.
+story calls for manual review, the **reviewer** named at readiness reviews and approves
+it, and sets the story to Done; on a story with no reviewer, the developer does. See the
+[Glossary](glossary.md) for the roles.
 
 ## Definition of done
 
@@ -22,8 +23,7 @@ story calls for manual review, the **reviewer** named at readiness (by default t
   satisfied.
 - [ ] **Any manual review required at readiness has been completed and approved.** If the
   [Definition of Ready](definition-of-ready.md) specified a manual review, the reviewer
-  named there — the requester, or whoever the requester designated in their place — must
-  have reviewed the work and approved it.
+  named there must have reviewed the work and approved it.
 
 ### Additionally, for stories that involve code
 
@@ -42,6 +42,7 @@ have nothing on it.
 
 ## Related
 
+- [Glossary](glossary.md) — short definitions of story, task, and the roles.
 - [Definition of Ready](definition-of-ready.md) — where a story's acceptance criteria
   are captured before work starts.
 - [Stories and Tasks](stories-and-tasks.md) — why only stories reach Done, and tasks

@@ -19,7 +19,7 @@ skills alike. The unit here is the **story** — see
    finished. More often is fine.
 3. **Merge to the default branch when it's deployed to production.** When the story
    goes to production, it must be merged into the repository's default branch
-   (whichever branch that repo designates as its default. It is not always named
+   (whichever branch that repo designates as its default — it is not always named
    `main`). The default branch always reflects what is in production.
 
 ## Definition of done
@@ -29,6 +29,7 @@ skills alike. The unit here is the **story** — see
 
 ## Related
 
+- [Glossary](glossary.md) — short definitions of story, default branch, and the roles.
 - [Definition of Done](definition-of-done.md) — the overall bar for a finished story,
   which builds on these version-control practices.
 - [Stories and Tasks](stories-and-tasks.md) — the unit of work a branch corresponds to.

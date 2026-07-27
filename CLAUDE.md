@@ -60,7 +60,9 @@ never move between folders, links between them don't break from relocation. (Fil
 .
 ├── README.md                        # index + introduction (the front door)
 ├── CLAUDE.md                        # this file
-├── definition-of-done-for-code.md   # a standard-work document
+├── definition-of-done.md            # a standard-work document
+├── definition-of-ready.md           # …
+├── stories-and-tasks.md             # …
 ├── version-control-usage.md         # …
 ├── status-tracking.md               # …
 ├── architecture-decision-records.md # …
@@ -78,7 +80,7 @@ never move between folders, links between them don't break from relocation. (Fil
   first line of the document.** Lowercase the title, replace spaces with hyphens, drop
   punctuation, add `.md`. So a document whose first line is `# Status Tracking` is
   named `status-tracking.md`; `# Version Control Usage` → `version-control-usage.md`;
-  `# Definition of Ready for Code` → `definition-of-ready-for-code.md`. Title and
+  `# Definition of Ready` → `definition-of-ready.md`. Title and
   filename stay in lockstep — renaming one means renaming the other.
 - Names sort alphabetically in the root listing; the **intended reading order lives
   in the `README.md` index**, not in the filenames. Do not add numeric prefixes.

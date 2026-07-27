@@ -8,10 +8,13 @@ New here? Skip down to [What is standard work?](#what-is-standard-work) for the 
 
 ## Index
 
-- [Definition of Ready for Code](definition-of-ready-for-code.md) — the bar for when a
-  piece of work is defined well enough to start.
-- [Definition of Done for Code](definition-of-done-for-code.md) — the bar for when a
-  code change is considered finished, and where it must live in GitHub.
+- [Stories and Tasks](stories-and-tasks.md) — the vocabulary the rest of this library
+  uses: what a story is (and the INVEST criteria for writing a good one), what a task
+  is, and when to break a story into tasks. **Start here.**
+- [Definition of Ready](definition-of-ready.md) — the bar for when a story is defined
+  well enough to start.
+- [Definition of Done](definition-of-done.md) — the bar for when a story is considered
+  finished, plus the extra version-control bar for stories that involve code.
 - [Version Control Usage](version-control-usage.md) — keeping work on a branch, pushing
   to GitHub at least daily, and merging to the default branch when it reaches production.
 - [Status Tracking](status-tracking.md) — tracking all work in Linear and what each
@@ -30,7 +33,7 @@ Packaged agent skills that *perform* standard work, in [`skills/`](skills/):
 As the library grows, you can group the index under sub-headings. For example:
 
 ### Planning
-- [Definition of Ready for Code](definition-of-ready-for-code.md) — defined well enough to start.
+- [Definition of Ready](definition-of-ready.md) — defined well enough to start.
 
 ### Delivery
 - [Version Control Usage](version-control-usage.md) — where code lives at each stage.
@@ -69,7 +72,7 @@ land on.
 
 - **Reading?** Browse the [Index](#index) and open whatever's relevant. Each document
   tells you its purpose, when it applies, who's involved, and the steps.
-- **Improving something?** Edit the document, and update this index in the same change
+- **Improving something?** Edit the document, and update this index in the same commit
   if you add, rename, or remove a file. Standard work is meant to evolve — if you've
   found a better way, change it here so everyone benefits.
 - **Adding a new practice?** Follow the shape of the existing documents (purpose →

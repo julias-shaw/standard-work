@@ -40,7 +40,7 @@ Scan existing ADR files for the highest number. ADR filenames follow the pattern
 
 ```
 ADR-0001-phoenix-liveview-for-web-ui.md
-ADR-0002-postrgresql-for-backend.md
+ADR-0002-postgresql-for-backend.md
 ```
 
 The next ADR gets the next sequential number, zero-padded to 4 digits. Numbers are never reused --

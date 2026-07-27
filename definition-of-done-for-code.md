@@ -7,7 +7,9 @@ of any change visible to the whole team through GitHub.
 **When it applies** — to every code change, no matter how small: features, fixes,
 refactors, scripts, and agent skills alike.
 
-**Roles** — the **developer** is responsible for getting the change to done.
+**Roles** — the **developer** is responsible for getting the change to done. Where the
+item calls for manual review, the **reviewer** named at readiness — by default the
+**requester**, the person who asked for the work — reviews and approves it.
 
 ## Definition of done
 
@@ -24,8 +26,8 @@ Code is done when **all** of the following are true:
   until they are all satisfied.
 - [ ] **Any manual review required at readiness has been completed and approved.** If the
   [Definition of Ready for Code](definition-of-ready-for-code.md) specified a manual
-  review — review and approval by the requester — that review must be done and the work
-  approved.
+  review, the reviewer named there — the requester, or whoever the requester designated
+  in their place — must have reviewed the work and approved it.
 
 ## Related
 

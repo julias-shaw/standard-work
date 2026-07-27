@@ -34,8 +34,9 @@ Each item carries exactly one of the following statuses:
   currently blocking progress, the item is In Progress and the expected blockers
   should be listed in the item details.
 - **In Review** — The developer believes the work is done and is waiting for **manual
-  review** — review and approval by the requester. List who is reviewing it in the item
-  details.
+  review** — review and approval by the item's reviewer. That is the requester (the
+  person who asked for the work) unless they designated someone else as reviewer when
+  they created the item. List who is reviewing it in the item details either way.
 - **Done** — The item is completed and fully meets our
   [Definition of Done for Code](definition-of-done-for-code.md). Over time we will
   refine our definition of done.

@@ -31,12 +31,11 @@ Each story carries exactly one of the following statuses:
   not yet started.
 - **Blocked** — The story is actively blocked by something outside of your control. If
   the impediment is within your control, it is not Blocked — either keep working it
-  (In Progress) or, if you've set it aside, mark it Paused. A story should not be
-  paused unless a priority change has been approved. List any block(s) in the story
-  details and who owns getting it unblocked.
+  (In Progress) or, if you've set it aside, mark it Paused. List any block(s) in the
+  story details and who owns getting it unblocked.
 - **Paused** — This story was begun but is not currently being worked on. This may
-  happen due to a priority change or unplanned work. If the story is blocked by
-  something outside of your control, use the Blocked status instead.
+  happen due to a priority change or unplanned work. If the story is blocked by something
+  outside of your control, use the Blocked status instead.
 - **In Progress** — This story is actively being worked on and there are no known
   blockers stopping progress. If there are expected blockers coming up that are not
   currently blocking progress, the story is In Progress and the expected blockers
